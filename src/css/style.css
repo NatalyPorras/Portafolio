@@ -18,7 +18,6 @@ body{
     justify-content: space-around;
     margin: 5px;
     padding: 5px 0;
-    background: red;
 }
 
 #nav_bar nav a{
@@ -29,7 +28,6 @@ body{
     width: 100px;
     line-height: 20px;
     text-decoration: none;
-    background: green;
 }
 #nav_bar nav a i {
     -webkit-transition: all 0.3s ease-out;
@@ -46,7 +44,6 @@ body{
 }
 #nav_bar nav a:after {
     content: '';
-    background: blue;
     font-size: 20px;
     letter-spacing: 2px;
     position: relative;
