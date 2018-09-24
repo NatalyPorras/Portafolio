@@ -1,38 +1,58 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url(../imagenes/fondo2.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(154,154,154, 1.2)
 }
-#nav_bar {
-    background: black;
-    width: 100%;
-    height: 80px;
 
+#nav_bar {
+    width: 100%;
+    height: 100vh;
+
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background: #000000;
+}
+.img-logo{
+    height: 100px;
+    width: 130px;
+    position: absolute;
+    top:0;
+    left: 40px;
 }
 #nav_bar nav {
     display: flex;
     position: absolute;
     text-align: center;
-    width: 600px;
-    top:0;
-    right: 10px;
-    justify-content: space-around;
-    margin: 5px;
-    padding: 5px 0;
+    width: 40%;
+    right: 20px;
+    height: 90px;
+    justify-content: center;
+    margin: 5px auto;
 }
 
 #nav_bar nav a{
-    font-size: 40px;
-    color: #4d4d4e;
-    padding: 10px 0;
+    font-size: 25px;
+    color: white;
     display: flex;
-    width: 100px;
-    line-height: 20px;
+    justify-content: center;
+    width: 105px;
+    margin: 4px 1px;
+    line-height: 15px;
     text-decoration: none;
 }
 #nav_bar nav a i {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    margin: 0 auto;
+    left: 0px;
+    height: 27px;
+    margin: 27px auto;
+    position: relative;
 }
 
 #nav_bar nav a:hover i {
@@ -40,78 +60,169 @@ body{
 }
 #nav_bar nav a.active,
 #nav_bar nav a:hover {
-    color:#f67280;
+    color:#00507d;
 }
 #nav_bar nav a:after {
     content: '';
-    font-size: 20px;
-    letter-spacing: 2px;
-    position: relative;
-   margin: 0 auto;
+    position: absolute;
     opacity: 0;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 #nav_bar nav a:first-child:after {
-    content: 'Home';
+    content: 'Inicio';
+    padding: 28px 0px;
+    margin: 4px 0;
+    width: 18%;
+    height: 14px;
+    font-size: 20px;
+    border-bottom: 3px solid #00507d;   
 }
 #nav_bar nav a:first-child + a:after {
-    content: 'About';
+    content: 'Acerca de mi';
+    padding: 28px 0px;
+    margin: 4px 0;
+    width: 18%;
+    height: 14px;
+    font-size: 18px;
+    border-bottom: 3px solid #00507d;   
 }
 #nav_bar nav a:first-child + a +  a:after {
-    content: 'Skills';
+    content: 'Habilidades';
+    padding: 28px 0px;
+    margin: 4px 0;
+    width: 18%;
+    height: 14px;
+    font-size: 19px;
+    border-bottom: 3px solid #00507d;   
 }
 #nav_bar nav a:first-child + a + a + a:after {
-    content: 'My Work';
+    content: 'Proyectos';
+    padding: 28px 0px;
+    margin: 4px 0;
+    width: 18%;
+    height: 14px;
+    font-size: 19px;
+    border-bottom: 3px solid #00507d;   
 }
 #nav_bar nav a:first-child + a + a + a + a:after {
-    content: 'Contact';
+    content: 'Contactame';
+    padding: 28px 0px;
+    margin: 4px 0;
+    width: 18%;
+    height: 14px;
+    font-size: 19px;
+    border-bottom: 3px solid #00507d;   
+
 }
 
 #nav_bar nav a:hover:after{
     opacity: 1;
 }
+.Home{
+    width: 50%;
+    margin: 10% auto 0;
+    padding: 5px 0;
+    color: white;
+    border: 2px solid white;
+    font-family: "Century Gothic";
+}
+.Home .titulo1{
+    width: 20%;
+    position: relative;
+    font-size: 30px;
+    left: 10%;
+    margin: 0;
+}
+.Home .titulo2{
+    width: 60%;
+    position: relative;
+    font-size: 40px;
+    left: 10%;
+    margin: 0;
+}
+.Home .titulo3{
+    width: 80%;
+    position: relative;
+    font-size: 50px;
+    left: 10%;
+    margin: 0;
+}
 
-.slide{
+.About{  
+    top: 135px;
     width: 100%;
-    height: 300px;
-    background: #f67280;
+    height: 550px;
+    padding: 25px 0;
+    background-color: white;
     text-align: center;
-    font-size: 50px;
+    font-family: "Century Gothic"
 }
-.about{
-    width: 100%;
-    height: 300px;
-    background: #40f6de;
-    text-align: center;
-    font-size: 50px;
+.About h3{  
+    font-size: 40px;
+    margin: 0;
 }
-.skills{
-    width: 100%;
-    height: 300px;
-    background: #f67280;
-    text-align: center;
-    font-size: 50px;
+.About .content-box{
+    display:  flex;
+    width: 60%;
+    height: 336px;
+    margin: 20px auto;
+    padding: 20px 0;
+
 }
-.projects{
-    width: 100%;
-    height: 300px;
-    background: #40f6de;
-    text-align: center;
-    font-size: 50px;
+.About .img-photo{    
+    display: inline-block;
+    width: 31%;
+    margin: 0 2%;
 }
-.contact{
-    width: 100%;
-    height: 50%;
-    height: 300px;
-    background: #f67280;
-    text-align: center;
-    font-size: 50px;
+.About .img-photo img{
+    border-radius: 45%;
+    width: 190px;
+    height: 260px;
+    margin: 40px 32px;
 }
-footer{
-    width: 100%;
-    height: 50px;
-    background:#000000;
-    color: #ffffff;
+.About .content-parr{
+    width: 61%;
+    margin: 0px 2%;  
+
+}
+.About .content-parr p{
+    padding: 95px 20px;
+
+}
+.Habilidades{
+    height: 500px;
+    padding: 15px;
     text-align: center;
+    font-family: "Century Gothic";
+    background-image: url(../imagenes/imagen14.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.Habilidades h3{
+    font-size: 70px;
+    color:white;
+    margin: 0;
+}
+.Habilidades i{
+    font-size: 120px;
+    color:white;
+}
+.Habilidades .part1{
+    width: 50%;
+    height: 205px;
+    margin: 0px auto;
+}
+.Habilidades .part1 i{
+    margin: 40px 60px ;
+}
+.Habilidades .part2{
+    width: 50%;
+    height: 205px;
+    margin: 5px auto 0;
+}
+.Habilidades .part2 i{
+    margin: 40px 49px ;
 }
