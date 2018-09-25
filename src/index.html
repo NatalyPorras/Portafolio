@@ -19,22 +19,22 @@
 
 <body>
     <header id="nav_bar">
-        <div class="container">
+        <div name="inicio" id="inicio" class="container">
             <img src="imagenes/logo.png" alt="" class="img-logo">
             <nav class="en">
-                <a href="" class="home-link active">
+                <a href="#inicio" class="home-link active">
                     <i class="fas fa-home"></i>
                 </a>
-                <a href="">
+                <a href="#about">
                     <i class="fas fa-user"></i>
                 </a>
-                <a href="">
+                <a href="#habilidades">
                     <i class="fas fa-cog"></i>
                 </a>
-                <a href="">
+                <a href="#project">
                     <i class="fas fa-file-code"></i>
                 </a>
-                <a href="">
+                <a href="#contactame">
                     <i class="far fa-comment-alt"></i>
                 </a>
             </nav>
@@ -48,7 +48,8 @@
         </div>
     </header>
 
-    <div class="About">
+    <div name="about" id="about" class="About">
+        <!-- <a name="about" id="about"></a></a> -->
         <h3>Acerca de mi</h3>
         <div class="content-box">
             <div class="img-photo">
@@ -64,26 +65,28 @@
         </div>
 
     </div>
-    <div class="Habilidades">
+    <div name="habilidades" id="habilidades" class="Habilidades">
         <h3>Habilidades</h3>
         <div class="part1">
-
             <i class="fab fa-html5"></i>
-
             <i class="fab fa-css3-alt"></i>
-
             <i class="fab fa-js"></i>
-        </div>
-
-        <div class="part2">
             <i class="fab fa-github"></i>
             <i class="fab fa-node-js"></i>
             <i class="fab fa-react"></i>
         </div>
 
+        <div class="part2">
+            <img class="img-firebase" src="imagenes/firebase.png" alt="" >
+            <img class="img-git" src="imagenes/Git_icon.svg.png" alt="" >
+            <img class="img-boot" src="imagenes/bootstrap.png" alt="" >
+            <img class="img-jest" src="imagenes/jestlogo.png" alt="" >
+            <img class="img-npm" src="imagenes/npm-logo.png" alt="" >
+        </div>
+
     </div>
     </div>
-    <div class="Proyectos">
+    <div name="project" id="project" class="Proyectos">
         <h3>Proyectos</h3>
         <div class="project1">
             <div class="img-project1">
@@ -116,7 +119,7 @@
             </div>
         </div>
     </div>
-    <div class="Contactame">
+    <div name="contactame" id="contactame" class="Contactame">
         <h3>Contáctame</h3>
     </div>
     <footer>
