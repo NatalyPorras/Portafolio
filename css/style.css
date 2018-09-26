@@ -1,34 +1,190 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url(../imagenes/fondo2.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+body {
+    background-image: url(../imagenes/fondo-responsive1-negro.png);
     background-attachment: fixed;
-    background-color: rgba(154,154,154, 1.2);
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(10%);
     font-family: "Century Gothic"
 }
 
-#nav_bar {
-    width: 100%;
+#header img {
+    width: 80px;
+    height: 50px;
+}
+
+#footer {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+#footer .container .row .col p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.bg-light {
+    background-color: #555555 !important;
+}
+#main{
     height: 100vh;
+}
+#main .row {
+    color: #ffffff;
+}
+
+#main .col {
+    background-color: inherit;
+    border: 1px solid #ff0044;
+    max-width: 60%;
+    margin: 50% auto;
+    padding: 10px 5px;
+    height: 100px;
+}
+
+#main .col .titulo1 {
+    margin: 0px;
+}
+
+#main .col .titulo2 {
+    margin: 0px;
+}
+
+#main .col .titulo3 {
+    margin: 0px;
+}
+
+#footer {
+    background-color: #000000;
+    font-size: 10px;
+}
+#about{
+    background-color: #ffffff;
+}
+#about .img-photo img{
+    width: 150px;
+    height: 180px;
+    border-radius: 75px;
 
 }
-.container{
+#about .img-photo{
+    border-radius: 15px;
+    width: 150px;
+    height: 180px;
+   background-color: red;
+   margin: 5px auto;
+}
+#about h3{
+    text-align: center
+}
+#about p{
+    text-align: center;
+   font-size: 15px;
+}
+#habilidades{
+    background-image: url(../imagenes/fondo-habilidades.jpeg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(10%);
+    text-align: center;
+}
+
+#habilidades i{
+    font-size: 50px;
+
+}
+#habilidades .img-firebase img{
+    width: 43px;
+    height: 45px;;
+}
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../imagenes/fondo2.jpeg);
+    }
+    #footer {
+        font-size: 25px;
+    }
+
+    #header img {
+        width: 120px;
+        height: 80px;
+    }
+
+    #footer .container .row .col p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #main{
+        height: 90vh;
+    }
+    #main .col{
+        max-width: 80%;
+        margin: 20% auto;
+        padding: 35px 0 20px 60px;
+        height: 300px;
+        font-size: 50px;
+    }
+    .img-firebase{
+
+    }
+}
+
+@media (min-width: 1200px) {}
+
+/* .content{
     width: 100%;
-    height: 100px;
-    background: #000000;
-    position: fixed; 
-    top: 0;
+    background-image: url(../imagenes/fondo-responsive1-negro.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
 }
-.img-logo{
-    height: 80px;
-    width: 130px;
-    position: absolute;
-    top:10px;
-    left: 40px;
+header .content .row{
+    margin-right: 0;
+    margin-left: 0;
 }
-#nav_bar nav {
+
+header .img-logo {
+    height: 60px;
+    width: 90px;
+}
+
+.bg-light {
+    background-color: #555555 !important;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,0,68,.7);
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgba(255,0,68,.7);
+}
+header .card{
+    background-color: inherit;
+    border: 2px solid rgba(255,0,68);
+    padding-left: 30px;
+    font-weight: bolder;
+    margin: 56% 0;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        position: absolute;
+        right: 50px;
+        font-size: 20px;
+    }
+} */
+
+/* #nav_bar nav {
     display: flex;
     position: absolute;
     text-align: center;
@@ -121,8 +277,8 @@ body{
 
 #nav_bar nav a:hover:after{
     opacity: 1;
-}
-.Home{
+} */
+/* .Home {
     width: 50%;
     margin: 10% auto 0;
     padding: 5px 0;
@@ -130,29 +286,32 @@ body{
     border: 2px solid #ff0044;
     font-family: "Century Gothic";
 }
-.Home .titulo1{
+
+.Home .titulo1 {
     width: 20%;
     position: relative;
     font-size: 30px;
     left: 10%;
     margin: 0;
 }
-.Home .titulo2{
+
+.Home .titulo2 {
     width: 60%;
     position: relative;
     font-size: 40px;
     left: 10%;
     margin: 0;
 }
-.Home .titulo3{
+
+.Home .titulo3 {
     width: 80%;
     position: relative;
     font-size: 50px;
     left: 10%;
     margin: 0;
-}
+} */
 
-.About{  
+.About {
     top: 135px;
     width: 100%;
     height: 550px;
@@ -161,39 +320,46 @@ body{
     text-align: center;
     font-family: "Century Gothic"
 }
-.About h3{  
+
+.About h3 {
     font-size: 40px;
     margin: 0;
 }
-.About .content-box{
-    display:  flex;
+
+.About .content-box {
+    display: flex;
     width: 60%;
     height: 336px;
     margin: 20px auto;
     padding: 20px 0;
 
 }
-.About .img-photo{    
+
+.About .img-photo {
     display: inline-block;
     width: 31%;
     margin: 0 2%;
 }
-.About .img-photo img{
+
+.About .img-photo img {
     border-radius: 45%;
     width: 190px;
     height: 260px;
     margin: 40px 32px;
 }
-.About .content-parr{
+
+.About .content-parr {
     width: 61%;
-    margin: 0px 2%;  
+    margin: 0px 2%;
 
 }
-.About .content-parr p{
+
+.About .content-parr p {
     padding: 95px 20px;
 
 }
-.Habilidades{
+
+.Habilidades {
     height: 500px;
     padding: 15px;
     text-align: center;
@@ -204,59 +370,70 @@ body{
     background-attachment: fixed;
 
 }
-.Habilidades h3{
+
+.Habilidades h3 {
     font-size: 70px;
-    color:white;
+    color: white;
     margin: 0;
 }
-.Habilidades i{
+
+.Habilidades i {
     font-size: 90px;
-    color:white;
+    color: white;
 }
-.Habilidades .part1{
+
+.Habilidades .part1 {
     width: 90%;
     height: 205px;
     margin: 0px auto;
 }
-.Habilidades .part1 i{
-    margin: 40px 40px ;
+
+.Habilidades .part1 i {
+    margin: 40px 40px;
 }
-.Habilidades .part2{
+
+.Habilidades .part2 {
     width: 90%;
     height: 205px;
     margin: 5px auto 0;
     display: flex;
     justify-content: center;
 }
+
 /* .Habilidades .part2 img{
     margin: 40px 35px;
 } */
-.Habilidades .img-firebase{
+.Habilidades .img-firebase {
     width: 140px;
     height: 120px;
     margin: 40px 10px 40px 40px;
 }
-.Habilidades .img-git{
+
+.Habilidades .img-git {
     width: 110px;
     height: 100px;
     margin: 48px 20px;
 }
-.Habilidades .img-boot{
+
+.Habilidades .img-boot {
     width: 100px;
     height: 100px;
     margin: 46px 40px;
 }
-.Habilidades .img-jest{
+
+.Habilidades .img-jest {
     width: 160px;
     height: 100px;
     margin: 46px 5px 46px 5px;
 }
-.Habilidades .img-npm{
+
+.Habilidades .img-npm {
     width: 190px;
     height: 100px;
     margin: 46px 5px;
 }
-.Proyectos{
+
+.Proyectos {
     width: 100%;
     background-color: white;
     padding: 25px 0;
@@ -264,63 +441,67 @@ body{
 
 }
 
-.Proyectos h3{
- margin: 0;
- font-size: 70px;
+.Proyectos h3 {
+    margin: 0;
+    font-size: 70px;
     background-color: pink;
 }
 
-.Proyectos .project1{
-    width: 80%;
-    height: 300px;
-    background-color: red;
-    margin: 25px  auto 12.5px;
-}
-
-.Proyectos .project2{
+.Proyectos .project1 {
     width: 80%;
     height: 300px;
     background-color: red;
     margin: 25px auto 12.5px;
 }
 
-.Proyectos .project3{
+.Proyectos .project2 {
     width: 80%;
     height: 300px;
     background-color: red;
     margin: 25px auto 12.5px;
-} 
-.Contactame{
+}
+
+.Proyectos .project3 {
+    width: 80%;
+    height: 300px;
+    background-color: red;
+    margin: 25px auto 12.5px;
+}
+
+.Contactame {
     width: 100%;
     height: 700px;
     background: white;
     text-align: center;
     background-image: url(../imagenes/ontactame.jpeg);
     background-size: 100%;
-    background-color:rgb(255,0,0,0.8);
+    background-color: rgb(255, 0, 0, 0.8);
     background-attachment: fixed;
-/*     opacity:0.6;
-    filter:alpha(opacity=60); /* IE < 9.0 */ 
+    /*     opacity:0.6;
+    filter:alpha(opacity=60); /* IE < 9.0 */
 }
-.Contactame h3{
+
+.Contactame h3 {
     font-size: 70px;
     margin: 0;
 }
-footer{
+
+/* footer {
     width: 100%;
     height: 100px;
     background-color: black;
     color: white;
 }
 
-footer p{
+footer p {
     display: inline-block;
     margin: 40px 150px;
 }
-footer img{
+
+footer img {
     position: absolute;
     right: 20px;
     width: 130px;
     height: 80px;
     margin: 10px;
-}
+} */
