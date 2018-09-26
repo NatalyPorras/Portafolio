@@ -93,15 +93,26 @@ body {
     object-fit: cover;
     filter: grayscale(10%);
     text-align: center;
+    padding: 15px 0;
+}
+#habilidades .col-6,#habilidades .col-12{
+    margin: 10px 0;
+    color: #ffffff;
 }
 
 #habilidades i{
     font-size: 50px;
-
+    color : white;
 }
-#habilidades .img-firebase img{
+#habilidades .imgIcono img{
     width: 43px;
-    height: 45px;;
+    height: 45px;
+    color: white;
+}
+#habilidades .imgIcono img{
+    width: 43px;
+    height: 45px;
+    color: white;
 }
 @media (min-width: 576px) {}
 
