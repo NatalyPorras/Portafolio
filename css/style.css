@@ -224,6 +224,7 @@ body {
 @media (min-width: 992px) {
     body {
         background-image: url(../imagenes/fondo2.jpeg);
+        height: 100vh;
     }
 
     #header img {
@@ -288,20 +289,22 @@ body {
     }
 
     #habilidades i {
-        font-size: 140px;
+        font-size: 130px;
         color: white;
     }
 
     #habilidades .imgIcono img {
-        width: 120px;
-        height: 135px;
+        width: 110px;
+        height: 145px;
+        margin: 3px 0;
         color: white;
     }
 
     #habilidades .imgIcononpm img {
         width: 190px;
-        height: 120px;
+        height: 100px;
         color: white;
+        padding: 5px 0;
     }
     #project {
         padding: 45px 0;
@@ -392,15 +395,18 @@ body {
 }
 
 @media (min-width: 1200px) {
+    body {
+        height: 100vh;
+    }
     .container{
         max-width:1340px; 
+        font-size: 20px;
     }
     #main .col {
         margin: 15% auto;
         padding: 10px 55px;
         height: 250px;
         max-width: 50%;
-
     }
 }
 
