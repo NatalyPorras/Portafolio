@@ -467,20 +467,26 @@ body {
         font-size: 110px;
     }
 
-    #habilidades .imgIcono img {
+    #habilidades .imgIconoF img {
         width: 90px;
         height: 100px;
-        margin: 3px 0;
-        color: white;
+        margin: 7px 2px;
     }
-
-    #habilidades .imgIcononpm img {
-        width: 190px;
+    #habilidades .imgIconoG img {
+        width: 100px;
         height: 100px;
-        color: white;
-        padding: 5px 0;
+        margin:4px 2px;
     }
-
+    #habilidades .imgIconoB img {
+        width: 90px;
+        height: 100px;
+        margin: 4px 2px;
+    }
+    #habilidades .imgIconoN img {
+        width: 200px;
+        height: 90px;
+        margin: 6% 2px;
+    }
     #project {
         padding: 45px 0;
     }
