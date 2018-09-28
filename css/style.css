@@ -455,7 +455,7 @@ body {
     }
 
     #about .texto-about p {
-        text-align: center;
+        text-align: justify;
         font-size: 25px;
         margin: 45px 0;
     }
