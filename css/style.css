@@ -35,7 +35,7 @@ body {
 #main .col {
     background-color: inherit;
     max-width: 100%;
-    margin: 80% auto;
+    margin: 70% auto;
     padding: 10px 5px;
     height: 100px;
 }
@@ -112,16 +112,26 @@ body {
     color: #5355cb;
 }
 
-#habilidades .imgIcono img {
-    width: 43px;
-    height: 45px;
-    color: #000000;
-}
 
-#habilidades .imgIcono img {
-    width: 43px;
+#habilidades .imgIconoF img {
+    width: 40px;
+    height: 40px;
+    margin: 3px 2px;
+}
+#habilidades .imgIconoG img {
+    width: 40px;
     height: 45px;
-    color: white;
+    margin:4px 2px;
+}
+#habilidades .imgIconoB img {
+    width: 40px;
+    height: 45px;
+    margin: 4px 2px;
+}
+#habilidades .imgIconoN img {
+    width: 100px;
+    height: 40px;
+    margin: 6% 2px;
 }
 
 #project {
