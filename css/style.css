@@ -397,8 +397,9 @@ body {
 
 
     #header img {
-        width: 120px;
-        height: 80px;
+        width: 70px;
+        height: 50px;
+        margin: 0;
     }
 
     .navbar-expand-lg .navbar-nav {
@@ -634,11 +635,6 @@ body {
         margin: 1px 0;
         font-size: 20px
     }
-    #contactame .fila1,
-    #contactame .fila2,
-        {
-        padding: 10px;
-    }
 
     #contactame h3 {
         text-align: center;
@@ -651,15 +647,15 @@ body {
     }
 
     #contactame i {
+        margin: 0 2%;
         color: #ffffff;
-        font-size: 80px;
+        font-size: 60px;
     }
 
     #contactame .fila1 .linke h4,
     #contactame .fila1 .git h4,
     #contactame .fila1 .mail h4,
     #contactame .fila1 .cv h4 {
-        margin: 0 10px;
         font-size: 20px;
     }
 
