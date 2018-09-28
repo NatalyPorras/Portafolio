@@ -30,7 +30,7 @@ body {
     color: #000000;
 }
 .fixed-top {
-    background-color: #5355cb   ;
+    background-color: #5355cb;
 }
 #main .col {
     background-color: inherit;
@@ -351,21 +351,21 @@ body {
     font-size: 10px;
 }
 
-#contactame .fila2 .mail a {
+#contactame .fila1 .mail a {
     margin: 0 37%;
 }
 
-#contactame .fila2 .mail h4 {
+#contactame .fila1 .mail h4 {
     text-align: center;
     color: #ffffff;
     font-size: 10px;
 }
 
-#contactame .fila2 .cv a {
+#contactame .fila1 .cv a {
     margin: 0 41%;
 }
 
-#contactame .fila2 .cv h4 {
+#contactame .fila1 .cv h4 {
     text-align: center;
     color: #ffffff;
     font-size: 10px;
@@ -377,17 +377,11 @@ body {
     color: #ffffff;
 }
 
-#footer {
-    color: #ffffff;
-    background-color: #000000;
-    font-size: 10px;
+#contactame a:hover {
+    text-decoration: none;
+    font-size: 40px;
+    color: #5355cb;
 }
-
-#footer p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {
@@ -508,7 +502,7 @@ body {
 
     #project .fila1 {
         margin: 25px 0;
-        padding: 65px 35px;
+        padding: 6px 35px;
     }
 
     #project .fila1 img {
@@ -529,6 +523,29 @@ body {
     #project .fila1 p {
         font-size: 20px;
     }
+    #project .fila1 .links {
+        width: 350px;
+        padding: 15px;
+        font-size: 15px;
+        margin: 65px auto;
+    }
+    
+    #project .fila1 .links .link1,#project .fila1 .links .link2 {
+        width: 140px;
+        height: 80px;
+      padding: 0;
+      cursor: pointer;
+    }
+    
+    #project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5{
+        margin: 1px 0;
+        font-size: 20px
+    }
 
     #project .fila2 {
         margin: 25px 0;
@@ -548,6 +565,29 @@ body {
 
     #project .fila2 p {
         font-size: 20px;
+    }
+    #project .fila2 .links {
+        width: 350px;
+        padding: 15px;
+        font-size: 15px;
+        margin: 65px auto;
+    }
+    
+    #project .fila2 .links .link1,#project .fila2 .links .link2 {
+        width: 140px;
+        height: 80px;
+      padding: 0;
+      cursor: pointer;
+    }
+    
+    #project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5{
+        margin: 1px 0;
+        font-size: 20px
     }
 
     #project .fila3 {
@@ -571,7 +611,29 @@ body {
         font-size: 20px;
 
     }
-
+    #project .fila3 .links {
+        width: 350px;
+        padding: 15px;
+        font-size: 15px;
+        margin: 65px auto;
+    }
+    
+    #project .fila3 .links .link1,#project .fila3 .links .link2 {
+        width: 140px;
+        height: 80px;
+      padding: 0;
+      cursor: pointer;
+    }
+    
+    #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
+        margin: 1px 0;
+        font-size: 20px
+    }
     #contactame .fila1,
     #contactame .fila2,
         {
@@ -589,28 +651,20 @@ body {
     }
 
     #contactame i {
-        text-align: center;
         color: #ffffff;
-        margin: 0 30px;
         font-size: 80px;
     }
 
     #contactame .fila1 .linke h4,
     #contactame .fila1 .git h4,
-    #contactame .fila1 .git h4,
-    #contactame .fila2 .mail h4,
-    #contactame .fila2 .cv h4 {
-
-        font-size: 25px;
+    #contactame .fila1 .mail h4,
+    #contactame .fila1 .cv h4 {
+        margin: 0 10px;
+        font-size: 20px;
     }
 
-    #footer p {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    #footer {
-        font-size: 15px;
+    #contactame i:hover {
+        color: #5355cb;
     }
 
 }
@@ -626,4 +680,6 @@ body {
         padding: 20px 0;
         height: 240px;
     }
+    
+
 }
