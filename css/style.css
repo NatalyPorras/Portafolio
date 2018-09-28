@@ -464,7 +464,7 @@ body {
     }
 
     #habilidades .row {
-        padding: 20px 0;
+        padding: 40px 0;
     }
 
     #habilidades i {
@@ -680,6 +680,8 @@ body {
         padding: 20px 0;
         height: 240px;
     }
-    
+    .container {
+        max-width: 1240px;
+    }
 
 }
