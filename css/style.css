@@ -1,11 +1,10 @@
-body {
 
-}
 #main{
-    background-image: url(../imagenes/fondo-portafolio.png);
+    background-image: url(../imagenes/fondo-port.png);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    background-color: rgba(116, 140, 171, 0.9);
     height: 100vh;
     object-fit: cover;
     filter: grayscale(10%);
@@ -32,7 +31,7 @@ body {
     color: #000000;
 }
 .sticky-top {
-    background-color: #5355cb;
+    background-color: #748CAB;
 }
 #main .col {
     background-color: inherit;
@@ -43,16 +42,6 @@ body {
 }
 
 #main .col .titulo1 {
-    margin: 0px;
-}
-
-#main .col .titulo2 {
-    margin: 0px;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-#main .col .titulo3 {
     margin: 0px;
     font-size: 25px;
 
@@ -137,13 +126,6 @@ body {
 }
 
 #project {
-    background-image: url(../imagenes/fondo-habilidades.jpeg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    object-fit: cover;
-    filter: grayscale(10%);
     text-align: center;
     padding: 50px 0;
 
@@ -161,8 +143,6 @@ body {
 
 #project .fila1 {
     margin: 10px 0px;
-    box-shadow: 2px 2px 9px #555555;
-    border-bottom: 1px solid #555555;
 }
 
 #project .fila1 img {
@@ -397,35 +377,43 @@ body {
 
 
     #header img {
-        width: 70px;
-        height: 50px;
-        margin: 0;
+        width: 140px;
+        height: 60px;
     }
-
+    .opciones{
+        margin: 0 15px;
+    }
     .navbar-expand-lg .navbar-nav {
         font-size: 20px;
     }
 
     #main .col {
-        max-width: 70%;
-        margin: 13% auto;
+        max-width: 90%;
+        margin: 6% auto;
     }
 
     #main .col .titulo1 {
         margin: 0px 15%;
-        font-size: 35px;
-    
+        font-size: 65px
     }
-
     #main .col .titulo2 {
-        margin: 0px 15%;
-        font-size: 85px;
-        font-weight: bold;
+        margin: 0px 20%;
+        font-size: 25px
     }
-
     #main .col .titulo3 {
-        margin: 0px 15%;
-        font-size: 45px
+        margin: 0px 20%;
+        font-size: 25px
+    }
+    #main .col .titulo4 {
+        margin: 0px 20%;
+        font-size: 25px
+    }
+    #main .col .cv{
+        margin: 0px 20%;
+
+    }
+    #main .col span{
+        color: #F0EBD8
     }
 
     #about {
@@ -441,7 +429,7 @@ body {
     }
 
     #about .img-photo img {
-        width: 250px;
+        width: 300px;
         height: 310px;
         border-radius: 105px;
         margin: 15px 0;
