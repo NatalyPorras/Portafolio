@@ -308,51 +308,6 @@
     padding: 15px 0;
 }
 
-#contactame h3 {
-    text-align: center;
-    color: #ffffff;
-}
-
-#contactame .fila1 .linke a {
-    margin: 0 38%;
-}
-
-#contactame .fila1 .linke h4 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 10px;
-}
-
-#contactame .fila1 .git a {
-    margin: 0 38%;
-}
-
-#contactame .fila1 .git h4 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 10px;
-}
-
-#contactame .fila1 .mail a {
-    margin: 0 37%;
-}
-
-#contactame .fila1 .mail h4 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 10px;
-}
-
-#contactame .fila1 .cv a {
-    margin: 0 41%;
-}
-
-#contactame .fila1 .cv h4 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 10px;
-}
-
 #contactame a {
     text-decoration: none;
     font-size: 40px;
@@ -389,29 +344,45 @@
 
     #main .col {
         max-width: 90%;
-        margin: 6% auto;
+        margin: 10% auto;
     }
 
     #main .col .titulo1 {
         margin: 0px 15%;
-        font-size: 65px
+        font-size: 65px;
+        font-weight: 500;
     }
     #main .col .titulo2 {
-        margin: 0px 20%;
-        font-size: 25px
+        margin: 0px 26%;
+        font-size: 20px
     }
     #main .col .titulo3 {
-        margin: 0px 20%;
-        font-size: 25px
+        margin: 0px 33%;
+        font-size: 20px
     }
     #main .col .titulo4 {
-        margin: 0px 20%;
-        font-size: 25px
+        margin: 0px 33.6%;
+        font-size: 20px
     }
     #main .col .cv{
-        margin: 0px 20%;
-
+        margin: 0px 38%;
+        padding: 1%;
+        display: inline-block;
     }
+    #main .col .cv a{
+        padding: 5%;
+        background-color: #333399;
+        color: #F0EBD8;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    #main .col .cv i{
+        display: inline;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
     #main .col span{
         color: #F0EBD8
     }
@@ -624,27 +595,21 @@
         font-size: 20px
     }
 
-    #contactame h3 {
-        text-align: center;
-        color: #ffffff;
-        font-size: 60px;
-    }
-
     #contactame .row {
-        margin: 45px 0;
+        margin: 5px 0;
     }
 
-    #contactame i {
-        margin: 0 2%;
-        color: #ffffff;
-        font-size: 60px;
+    #contactame .fila1 .linke a,
+    #contactame .fila1 .git a{
+        font-size: 30px;
     }
-    
-    #contactame .fila1 .linke h4,
-    #contactame .fila1 .git h4,
-    #contactame .fila1 .mail h4,
-    #contactame .fila1 .cv h4 {
+    #contactame .fila1 .mail a{
+        padding:3px 0;  
         font-size: 20px;
+    }
+    #contactame .fila1 .logo img{
+        width: 150px;
+        height: 60px;
     }
 
     #contactame i:hover {
