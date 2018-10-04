@@ -1,117 +1,636 @@
-body{
-    margin: 0;
-    padding: 0;
+#main{
+    background-image: url(../imagenes/fondo-port.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(116, 140, 171, 0.9);
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(10%);
+    font-family: "Century Gothic"
 }
-#nav_bar {
-    background: black;
-    width: 100%;
-    height: 80px;
+#header img {
+    width: 100px;
+    height: 50px;
+}
+.navbar-nav {
+    font-size: 13px;
+}
+
+#main {
+    height: 100vh;
+}
+
+#main .row {
+    color: #000000;
+}
+.sticky-top {
+    background-color: #748CAB;
+}
+#main .col {
+    background-color: inherit;
+    max-width: 100%;
+    margin: 50% auto;
+    padding: 10px 0;
+    height: 100px;
+}
+
+#main .col .titulo1 {
+    margin: 0px 5%;
+    font-size: 27px;
+    font-weight: 500;
+}
+#main .col .titulo2 {
+    margin: 0px 15%;
+    font-size: 10px
+}
+#main .col .titulo3 {
+    margin: 0px 26%;
+    font-size: 10px
+}
+#main .col .titulo4 {
+    margin: 0px 27%;
+    font-size: 10px
+}
+#main .col .cv{
+    margin: 0px 34%;
+    padding: 1%;
+    display: inline-block;
+}
+#main .col .cv a{
+    padding: 5%;
+    background-color: #333399;
+    color: #F0EBD8;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 15px;
+}
+#main .col .cv i{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+#main .col span{
+    color: #F0EBD8
+}
+#about {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#about .img-photo {
+    width: 270px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+#about .img-photo img {
+    width: 250px;
+    height: 190px;
+    margin: 5px 10px;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 5px 20px;
+}
+
+#about .cv{
+    margin: 15px 20%;
+    padding: 1%;
+    display: inline-block;
+}
+#about .cv a{
+    padding: 5%;
+    background-color: #333399;
+    color: #F0EBD8;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+#about .cv i{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+#habilidades {
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+#habilidades h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#habilidades .col-6 .titulo {
+    margin: 0 0 15px 0;
+    color: #000000;
+}
+
+#habilidades .col-6,
+#habilidades .col-12 {
+    margin: 10px 0;
+    color: #000000;
+}
+
+#habilidades i {
+    font-size: 50px;
+    color: #1D2D44;
+}
+
+#habilidades .imgIconoF img {
+    width: 40px;
+    height: 40px;
+    margin: 3px 2px;
+}
+#habilidades .imgIconoG img {
+    width: 40px;
+    height: 45px;
+    margin:4px 2px;
+}
+#habilidades .imgIconoB img {
+    width: 40px;
+    height: 45px;
+    margin: 4px 2px;
+}
+#habilidades .imgIconoN img {
+    width: 100px;
+    height: 40px;
+    margin: 6% 2px;
+}
+
+#project {
+    text-align: center;
+    padding: 50px 0;
 
 }
-#nav_bar nav {
-    display: flex;
-    position: absolute;
+
+#project .fila1,#project .fila2,#project .fila3{
+   background-color: rgba(254, 254, 255)
+
+}
+#project .fila1 {
+    margin: 10px 0px;
+}
+
+#project .fila1 img {
+    width: 160px;
+    height: 90px;
+    margin: 10px 50px;
+}
+
+#project .fila1 h2 {
     text-align: center;
-    width: 600px;
-    top:0;
-    right: 10px;
-    justify-content: space-around;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+#project .fila1 p {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px
+}
+#project .fila1 .contenido, 
+#project .fila2 .contenido, 
+#project .fila3 .contenido {
+    padding: 0px 25px;
+}
+#project .fila1 .links {
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around
+}
+#project .fila1 .links .link1,#project .fila1 .links .link2 {
+    width: 80px;
+    height: 38px;
+}
+#project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
+    border:1px solid #748CAB;
+    padding: 1px 10px;
+    background-color: #748CAB;
+    color: #F0EBD8;
+    font-size: 14px;
+}
+#project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5{
+    text-align: center;
+    color: #0D1321;
     margin: 5px;
+    font-size: 12px
+}
+#project .hr1{
+	border: 0;
+    box-shadow: 0 0 5px 0 #8c8b8b;    
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+#project .fila2 {
+    margin: 10px 0px;
+}
+
+#project .fila2 img {
+    width: 180px;
+    height: 90px;
+    margin: 20px 50px;
+}
+#project .fila2 h2 {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+}
+#project .fila2 p {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+#project .fila2 .links {
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around
+}
+#project .fila2 .links .link1,#project .fila2 .links .link2 {
+    width: 80px;
+    height: 38px;
+}
+#project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
+    border:1px solid #748CAB;
+    padding: 1px 10px;
+    background-color: #748CAB;
+    color: #F0EBD8;
+    font-size: 14px;
+}
+#project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5{
+    text-align: center;
+    color: #0D1321;
+    margin: 5px;
+    font-size: 12px
+}
+#project .hr2{
+	border: 0;
+    box-shadow: 0 0 5px 0 #8c8b8b;    
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+#project .fila3 {
+    margin: 10px 0px;
+}
+#project .fila3 img {
+    width: 160px;
+    height: 90px;
+    margin: 20px 50px;
+}
+#project .fila3 h2 {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+}
+#project .fila3 p {
+    text-align: center;
+    font-size: 10px;
+}
+#project .fila3 .links {
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around
+}
+#project .fila3 .links .link1,#project .fila3 .links .link2 {
+    width: 80px;
+    height: 38px;
+}
+#project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
+    border:1px solid #748CAB;
+    padding: 1px 10px;
+    background-color: #748CAB;
+    color: #F0EBD8;
+    font-size: 14px;
+}
+#project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
+    text-align: center;
+    color: #0D1321;
+    margin: 5px;
+    font-size: 12px
+}
+
+#contactame {
+    background-color: #555555;
     padding: 5px 0;
 }
+#contactame .col-3, #contactame .col-2, #contactame .col-2, #contactame .col-1, #contactame .col-4{
+  padding: 0;
+}
 
-#nav_bar nav a{
-    font-size: 40px;
-    color: #4d4d4e;
-    padding: 10px 0;
-    display: flex;
-    width: 100px;
-    line-height: 20px;
+#contactame .fila1 .linke a,
+#contactame .fila1 .git a,
+#contactame .fila1 .mail a{
+    padding: 0;
+    font-size: 12px;
+}
+
+#contactame .fila1 .guion{
+    padding-top: 11px;
+}
+#contactame .fila1 .guion div{
+    width: 15px;
+    height: 5px;
+    background-color: #ffffff;
+    font-size: 70px;
+}
+
+#contactame a {
     text-decoration: none;
-}
-#nav_bar nav a i {
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    margin: 0 auto;
-}
-
-#nav_bar nav a:hover i {
-    opacity: 0;
-}
-#nav_bar nav a.active,
-#nav_bar nav a:hover {
-    color:#f67280;
-}
-#nav_bar nav a:after {
-    content: '';
-    font-size: 20px;
-    letter-spacing: 2px;
-    position: relative;
-   margin: 0 auto;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-#nav_bar nav a:first-child:after {
-    content: 'Home';
-}
-#nav_bar nav a:first-child + a:after {
-    content: 'About';
-}
-#nav_bar nav a:first-child + a +  a:after {
-    content: 'Skills';
-}
-#nav_bar nav a:first-child + a + a + a:after {
-    content: 'My Work';
-}
-#nav_bar nav a:first-child + a + a + a + a:after {
-    content: 'Contact';
-}
-
-#nav_bar nav a:hover:after{
-    opacity: 1;
-}
-
-.slide{
-    width: 100%;
-    height: 300px;
-    background: #f67280;
-    text-align: center;
-    font-size: 50px;
-}
-.about{
-    width: 100%;
-    height: 300px;
-    background: #40f6de;
-    text-align: center;
-    font-size: 50px;
-}
-.skills{
-    width: 100%;
-    height: 300px;
-    background: #f67280;
-    text-align: center;
-    font-size: 50px;
-}
-.projects{
-    width: 100%;
-    height: 300px;
-    background: #40f6de;
-    text-align: center;
-    font-size: 50px;
-}
-.contact{
-    width: 100%;
-    height: 50%;
-    height: 300px;
-    background: #f67280;
-    text-align: center;
-    font-size: 50px;
-}
-footer{
-    width: 100%;
-    height: 50px;
-    background:#000000;
     color: #ffffff;
-    text-align: center;
+}
+#contactame .fila1 .logo img{
+    width: 70px;
+    height: 30px;
+}
+#contactame .fila1 .logo{
+    padding-left: 10px;
+}
+
+#contactame a:hover {
+    text-decoration: none;
+    color: #F0EBD8;
+}
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav {
+
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+
+
+    #header img {
+        width: 140px;
+        height: 60px;
+    }
+    .opciones{
+        margin: 0 15px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        font-size: 20px;
+    }
+
+    #main .col {
+        max-width: 90%;
+        margin: 10% auto;
+    }
+
+    #main .col .titulo1 {
+        margin: 0px 15%;
+        font-size: 65px;
+        font-weight: 500;
+    }
+    #main .col .titulo2 {
+        margin: 0px 26%;
+        font-size: 20px
+    }
+    #main .col .titulo3 {
+        margin: 0px 33%;
+        font-size: 20px
+    }
+    #main .col .titulo4 {
+        margin: 0px 33.6%;
+        font-size: 20px
+    }
+    #main .col .cv{
+        margin: 0px 38%;
+        padding: 1%;
+        display: inline-block;
+    }
+    #main .col .cv a{
+        padding: 5%;
+        background-color: #333399;
+        color: #F0EBD8;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    #main .col .cv i{
+        display: inline;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+    #main .col span{
+        color: #F0EBD8
+    }
+
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .fila1 {
+        margin: 5px 0;
+    }
+
+    #about img {
+        width: 360px;
+        height: 300px;
+        margin: 5px 30%;
+    }
+
+    #about .fila2{
+        margin: 45px 0;
+    }
+    #about .texto-about p {
+        text-align: justify;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    
+    #about .cv{
+        margin: 10px 20%;
+        padding: 2%;
+    }
+    #about .cv a{
+        padding: 5%;
+        background-color: #333399;
+        color: #F0EBD8;
+        text-decoration: none;
+        font-size: 25px;
+        border-radius: 15px;
+        margin: 0 20px;
+    }
+    #about .cv i{
+        display: inline;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 25px;
+    }
+    #habilidades .row {
+        padding: 30px 0;
+    }
+    #habilidades .col-lg-1 {
+       max-width: 85%;
+       margin: 0 5px
+    }
+
+    #habilidades i {
+        font-size: 80px;
+        margin: 0;
+    }
+
+    #habilidades .imgIconoF img {
+        width: 50px;
+        height: 70px;
+        margin: 7px 2px;
+    }
+    #habilidades .imgIconoG img {
+        width: 70px;
+        height: 70px;
+        margin: 5px 2px;
+    }
+    #habilidades .imgIconoB img {
+        width: 60px;
+        height: 70px;
+        margin: 4px 2px;
+    }
+    #habilidades .imgIconoN img {
+        width: 160px;
+        height: 70px;
+        margin: 4% 2px;
+    }
+    #project {
+        padding: 30px 0;
+    }
+
+    #project h3 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    #project .fila1,
+    #project .fila2  {
+        margin: 20px 0;
+        padding: 50px 35px;
+    }
+    #project .fila1 img,
+    #project .fila2 img,
+    #project .fila3 img  {
+        width: 520px;
+        height: 290px;
+        margin: 50px 10px;
+    }
+    #project .fila1 .contenido,
+    #project .fila2 .contenido,
+    #project .fila3 .contenido {
+        padding: 40px 25px;
+    }
+    #project .fila1 h2, 
+    #project .fila2 h2,
+    #project .fila3 h2 {
+        font-size: 45px;
+        margin: 20px 0;
+    }
+    #project .fila1 p,
+    #project .fila2 p,
+    #project .fila3 p {
+        font-size: 18px;
+    }
+    #project .fila1 .links, 
+    #project .fila2 .links,
+    #project .fila3 .links {
+        width: 350px;
+        padding: 10px;
+        font-size: 15px;
+        margin: 20px auto;
+    }
+    #project .fila1 .links .link1,#project .fila1 .links .link2,
+    #project .fila2 .links .link1,#project .fila2 .links .link2,
+    #project .fila3 .links .link1,#project .fila3 .links .link2 {
+        width: 280px;
+        height: 80px;
+      padding: 0;
+      cursor: pointer;
+    }
+    #project .fila1 .links .link1 a,#project .fila1 .links .link2 a,
+    #project .fila2 .links .link1 a,#project .fila2 .links .link2 a,
+    #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
+        font-size: 25px;
+        padding: 2px 20px;
+    }
+    #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5,
+    #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5,
+    #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
+        margin: 1px 0;
+        font-size: 20px
+    }
+    #project .fila3{
+        margin: 20px 0;
+        padding: 50px 35px;
+    }
+
+    #contactame .row {
+        padding: 45px 0;
+    }
+    #contactame .fila1 .linke,
+    #contactame .fila1 .git,
+    #contactame .fila1 .mail{
+        padding-top: 5px;
+        padding-left: 20px
+    }
+    #contactame .fila1 .linke a,
+    #contactame .fila1 .git a,
+    #contactame .fila1 .mail a{
+        font-size: 30px;
+    }
+
+    #contactame .fila1 .guion{
+        padding-top: 25px;
+    }
+    #contactame .fila1 .guion div{
+        width: 70px;
+        height: 10px;
+        background-color: #ffffff;
+        font-size: 70px;
+    }
+    #contactame .fila1 .logo img{
+        width: 130px;
+        height: 50px;
+    }
+    #contactame .fila1 .logo{
+        padding-left: 105px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+
+    #main .col {
+        padding: 20px 0;
+        height: 240px;
+    }
+    .container {
+        max-width: 1240px;
+    }
+
 }
