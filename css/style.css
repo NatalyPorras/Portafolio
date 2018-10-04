@@ -11,14 +11,9 @@
     font-family: "Century Gothic"
 }
 #header img {
-    width: 80px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
 }
-
-.bg-light {
-    background-color: #c9c9c9 !important;
-}
-
 .navbar-nav {
     font-size: 13px;
 }
@@ -36,17 +31,51 @@
 #main .col {
     background-color: inherit;
     max-width: 100%;
-    margin: 70% auto;
-    padding: 10px 5px;
+    margin: 50% auto;
+    padding: 10px 0;
     height: 100px;
 }
 
 #main .col .titulo1 {
-    margin: 0px;
-    font-size: 25px;
-
+    margin: 0px 5%;
+    font-size: 27px;
+    font-weight: 500;
+}
+#main .col .titulo2 {
+    margin: 0px 15%;
+    font-size: 10px
+}
+#main .col .titulo3 {
+    margin: 0px 26%;
+    font-size: 10px
+}
+#main .col .titulo4 {
+    margin: 0px 27%;
+    font-size: 10px
+}
+#main .col .cv{
+    margin: 0px 34%;
+    padding: 1%;
+    display: inline-block;
+}
+#main .col .cv a{
+    padding: 5%;
+    background-color: #333399;
+    color: #F0EBD8;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 15px;
+}
+#main .col .cv i{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
 }
 
+#main .col span{
+    color: #F0EBD8
+}
 #about {
     background-color: #ffffff;
     padding: 20px 0;
@@ -58,25 +87,43 @@
 }
 
 #about .img-photo {
-    border-radius: 15px;
-    width: 100px;
-    height: 150px;
+    width: 270px;
+    height: 200px;
     margin: 10px auto;
 }
 
 #about .img-photo img {
-    width: 100px;
-    height: 150px;
-    border-radius: 75px;
-
+    width: 250px;
+    height: 190px;
+    margin: 5px 10px;
 }
 
 #about p {
-    text-align: center;
-    font-size: 10px;
-    margin-top: 5px;
+    text-align: justify;
+    font-size: 15px;
+    margin: 5px 20px;
 }
 
+#about .cv{
+    margin: 15px 20%;
+    padding: 1%;
+    display: inline-block;
+}
+#about .cv a{
+    padding: 5%;
+    background-color: #333399;
+    color: #F0EBD8;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+#about .cv i{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+}
 #habilidades {
     background-color: #ffffff;
     padding: 15px 0;
@@ -100,9 +147,8 @@
 
 #habilidades i {
     font-size: 50px;
-    color: #5355cb;
+    color: #1D2D44;
 }
-
 
 #habilidades .imgIconoF img {
     width: 40px;
@@ -131,16 +177,10 @@
 
 }
 
-#project h3 {
-    text-align: center;
-    color:#ffffff;
-    font-size: 25px;
-}
 #project .fila1,#project .fila2,#project .fila3{
    background-color: rgba(254, 254, 255)
 
 }
-
 #project .fila1 {
     margin: 10px 0px;
 }
@@ -148,20 +188,25 @@
 #project .fila1 img {
     width: 160px;
     height: 90px;
-    margin: 20px 50px;
+    margin: 10px 50px;
 }
 
 #project .fila1 h2 {
     text-align: center;
     margin: 5px 0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #project .fila1 p {
     text-align: center;
     font-size: 10px;
+    margin-top: 10px
 }
-
+#project .fila1 .contenido, 
+#project .fila2 .contenido, 
+#project .fila3 .contenido {
+    padding: 0px 25px;
+}
 #project .fila1 .links {
     width: 200px;
     padding: 5px;
@@ -171,50 +216,47 @@
     display: flex;
     justify-content: space-around
 }
-
 #project .fila1 .links .link1,#project .fila1 .links .link2 {
-    background-color: #5355cb;
     width: 80px;
     height: 38px;
-    border: 1px solid #555555;
-    box-shadow: 2px 2px 9px #c9c9c9;
-
 }
-
 #project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
-
-    color: #ffffff;
+    border:1px solid #748CAB;
+    padding: 1px 10px;
+    background-color: #748CAB;
+    color: #F0EBD8;
     font-size: 14px;
 }
-
 #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5{
     text-align: center;
-    color: white;
-    margin: 0;
-    font-size: 10px
+    color: #0D1321;
+    margin: 5px;
+    font-size: 12px
 }
-
+#project .hr1{
+	border: 0;
+    box-shadow: 0 0 5px 0 #8c8b8b;    
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
 #project .fila2 {
     margin: 10px 0px;
-    box-shadow: 2px 2px 9px #555555;
-    border-bottom: 1px solid #555555;
 }
 
 #project .fila2 img {
-    width: 160px;
+    width: 180px;
     height: 90px;
     margin: 20px 50px;
 }
-
 #project .fila2 h2 {
     text-align: center;
     margin: 5px 0;
-    font-size: 25px;
+    font-size: 20px;
 }
-
 #project .fila2 p {
     text-align: center;
     font-size: 10px;
+    margin-top: 10px;
 }
 #project .fila2 .links {
     width: 200px;
@@ -225,48 +267,42 @@
     display: flex;
     justify-content: space-around
 }
-
 #project .fila2 .links .link1,#project .fila2 .links .link2 {
-    background-color: #5355cb;
     width: 80px;
     height: 38px;
-    border: 1px solid #555555;
-    box-shadow: 2px 2px 9px #c9c9c9;
-
 }
-
 #project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
-
-    color: #ffffff;
+    border:1px solid #748CAB;
+    padding: 1px 10px;
+    background-color: #748CAB;
+    color: #F0EBD8;
     font-size: 14px;
 }
-
 #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5{
     text-align: center;
-    color: white;
-    margin: 0;
-    font-size: 10px
+    color: #0D1321;
+    margin: 5px;
+    font-size: 12px
 }
-
-
+#project .hr2{
+	border: 0;
+    box-shadow: 0 0 5px 0 #8c8b8b;    
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
 #project .fila3 {
     margin: 10px 0px;
-    box-shadow: 2px 2px 9px #555555;
-    border-bottom: 1px solid #555555;
 }
-
 #project .fila3 img {
     width: 160px;
     height: 90px;
     margin: 20px 50px;
 }
-
 #project .fila3 h2 {
     text-align: center;
     margin: 5px 0;
-    font-size: 25px;
+    font-size: 20px;
 }
-
 #project .fila3 p {
     text-align: center;
     font-size: 10px;
@@ -280,44 +316,64 @@
     display: flex;
     justify-content: space-around
 }
-
 #project .fila3 .links .link1,#project .fila3 .links .link2 {
-    background-color: #5355cb;
     width: 80px;
     height: 38px;
-    border: 1px solid #555555;
-    box-shadow: 2px 2px 9px #c9c9c9;
-
 }
-
 #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-    text-align: center;
-    color: #ffffff;
+    border:1px solid #748CAB;
+    padding: 1px 10px;
+    background-color: #748CAB;
+    color: #F0EBD8;
     font-size: 14px;
 }
-
 #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
     text-align: center;
-    color: white;
-    margin: 0;
-    font-size: 10px
+    color: #0D1321;
+    margin: 5px;
+    font-size: 12px
 }
 
 #contactame {
     background-color: #555555;
-    padding: 15px 0;
+    padding: 5px 0;
+}
+#contactame .col-3, #contactame .col-2, #contactame .col-2, #contactame .col-1, #contactame .col-4{
+  padding: 0;
+}
+
+#contactame .fila1 .linke a,
+#contactame .fila1 .git a,
+#contactame .fila1 .mail a{
+    padding: 0;
+    font-size: 12px;
+}
+
+#contactame .fila1 .guion{
+    padding-top: 11px;
+}
+#contactame .fila1 .guion div{
+    width: 15px;
+    height: 5px;
+    background-color: #ffffff;
+    font-size: 70px;
 }
 
 #contactame a {
     text-decoration: none;
-    font-size: 40px;
     color: #ffffff;
+}
+#contactame .fila1 .logo img{
+    width: 70px;
+    height: 30px;
+}
+#contactame .fila1 .logo{
+    padding-left: 10px;
 }
 
 #contactame a:hover {
     text-decoration: none;
-    font-size: 40px;
-    color: #5355cb;
+    color: #F0EBD8;
 }
 @media (min-width: 576px) {}
 
@@ -388,71 +444,87 @@
     }
 
     #about {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 
     #about .fila1 {
-        margin: 25px 0;
+        margin: 5px 0;
     }
 
-    #about h3 {
-        font-size: 60px;
+    #about img {
+        width: 360px;
+        height: 300px;
+        margin: 5px 30%;
     }
 
-    #about .img-photo img {
-        width: 300px;
-        height: 310px;
-        border-radius: 105px;
-        margin: 15px 0;
+    #about .fila2{
+        margin: 45px 0;
     }
-
-    #about .img-photo {
-        border-radius: 105px;
-        width: 250px;
-        height: 310px;
-        margin: 15px auto;
-    }
-
     #about .texto-about p {
         text-align: justify;
         font-size: 25px;
-        margin: 45px 0;
+        margin: 20px 0;
     }
-
-    #habilidades h3 {
-        font-size: 60px;
+    #about p {
+        text-align: justify;
+        font-size: 15px;
+        margin: 5px 20px;
     }
-
+    
+    #about .cv{
+        margin: 10px 20%;
+        padding: 2%;
+    }
+    #about .cv a{
+        padding: 5%;
+        background-color: #333399;
+        color: #F0EBD8;
+        text-decoration: none;
+        font-size: 25px;
+        border-radius: 15px;
+        margin: 0 20px;
+    }
+    #about .cv i{
+        display: inline;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 25px;
+    }
     #habilidades .row {
-        padding: 40px 0;
+        padding: 30px 0;
+    }
+    #habilidades .col-lg-1 {
+       max-width: 85%;
+       margin: 0 5px
     }
 
     #habilidades i {
-        font-size: 110px;
+        font-size: 80px;
+        margin: 0;
     }
 
     #habilidades .imgIconoF img {
-        width: 90px;
-        height: 100px;
+        width: 50px;
+        height: 70px;
         margin: 7px 2px;
     }
     #habilidades .imgIconoG img {
-        width: 100px;
-        height: 100px;
-        margin:4px 2px;
+        width: 70px;
+        height: 70px;
+        margin: 5px 2px;
     }
     #habilidades .imgIconoB img {
-        width: 90px;
-        height: 100px;
+        width: 60px;
+        height: 70px;
         margin: 4px 2px;
     }
     #habilidades .imgIconoN img {
-        width: 200px;
-        height: 90px;
-        margin: 6% 2px;
+        width: 160px;
+        height: 70px;
+        margin: 4% 2px;
     }
     #project {
-        padding: 45px 0;
+        padding: 30px 0;
     }
 
     #project h3 {
@@ -460,160 +532,97 @@
         font-size: 60px;
     }
 
-    #project .fila1 {
-        margin: 25px 0;
-        padding: 6px 35px;
-    }
-
-    #project .fila1 img {
-        width: 480px;
-        height: 260px;
-        margin: 30px 10px;
-    }
-
-    #project .fila1 .contenido {
-        padding: 30px 0;
-    }
-
-    #project .fila1 h2 {
-        font-size: 60px;
+    #project .fila1,
+    #project .fila2  {
         margin: 20px 0;
+        padding: 50px 35px;
     }
-
-    #project .fila1 p {
-        font-size: 20px;
+    #project .fila1 img,
+    #project .fila2 img,
+    #project .fila3 img  {
+        width: 520px;
+        height: 290px;
+        margin: 50px 10px;
     }
-    #project .fila1 .links {
-        width: 350px;
-        padding: 15px;
-        font-size: 15px;
-        margin: 65px auto;
+    #project .fila1 .contenido,
+    #project .fila2 .contenido,
+    #project .fila3 .contenido {
+        padding: 40px 25px;
     }
-    
-    #project .fila1 .links .link1,#project .fila1 .links .link2 {
-        width: 140px;
-        height: 80px;
-      padding: 0;
-      cursor: pointer;
-    }
-    
-    #project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
-        font-size: 35px;
-        margin: 0;
-    }
-    
-    #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5{
-        margin: 1px 0;
-        font-size: 20px
-    }
-
-    #project .fila2 {
-        margin: 25px 0;
-        padding: 65px 35px;
-    }
-
-    #project .fila2 img {
-        width: 480px;
-        height: 260px;
-        margin: 30px 10px;
-    }
-
-    #project .fila2 h2 {
-        font-size: 60px;
-        margin: 20px 0;
-    }
-
-    #project .fila2 p {
-        font-size: 20px;
-    }
-    #project .fila2 .links {
-        width: 350px;
-        padding: 15px;
-        font-size: 15px;
-        margin: 65px auto;
-    }
-    
-    #project .fila2 .links .link1,#project .fila2 .links .link2 {
-        width: 140px;
-        height: 80px;
-      padding: 0;
-      cursor: pointer;
-    }
-    
-    #project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
-        font-size: 35px;
-        margin: 0;
-    }
-    
-    #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5{
-        margin: 1px 0;
-        font-size: 20px
-    }
-
-    #project .fila3 {
-        margin: 25px 0;
-        padding: 65px 35px;
-
-    }
-
-    #project .fila3 img {
-        width: 480px;
-        height: 260px;
-        margin: 30px 10px;
-    }
-
+    #project .fila1 h2, 
+    #project .fila2 h2,
     #project .fila3 h2 {
-        font-size: 60px;
+        font-size: 45px;
         margin: 20px 0;
     }
-
+    #project .fila1 p,
+    #project .fila2 p,
     #project .fila3 p {
-        font-size: 20px;
-
+        font-size: 18px;
     }
+    #project .fila1 .links, 
+    #project .fila2 .links,
     #project .fila3 .links {
         width: 350px;
-        padding: 15px;
+        padding: 10px;
         font-size: 15px;
-        margin: 65px auto;
+        margin: 20px auto;
     }
-    
+    #project .fila1 .links .link1,#project .fila1 .links .link2,
+    #project .fila2 .links .link1,#project .fila2 .links .link2,
     #project .fila3 .links .link1,#project .fila3 .links .link2 {
-        width: 140px;
+        width: 280px;
         height: 80px;
       padding: 0;
       cursor: pointer;
     }
-    
+    #project .fila1 .links .link1 a,#project .fila1 .links .link2 a,
+    #project .fila2 .links .link1 a,#project .fila2 .links .link2 a,
     #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-        font-size: 35px;
-        margin: 0;
+        font-size: 25px;
+        padding: 2px 20px;
     }
-    
+    #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5,
+    #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5,
     #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
         margin: 1px 0;
         font-size: 20px
+    }
+    #project .fila3{
+        margin: 20px 0;
+        padding: 50px 35px;
     }
 
     #contactame .row {
         margin: 5px 0;
     }
-
+    #contactame .fila1 .linke,
+    #contactame .fila1 .git,
+    #contactame .fila1 .mail{
+        padding-top: 5px;
+        padding-left: 20px
+    }
     #contactame .fila1 .linke a,
-    #contactame .fila1 .git a{
+    #contactame .fila1 .git a,
+    #contactame .fila1 .mail a{
         font-size: 30px;
     }
-    #contactame .fila1 .mail a{
-        padding:3px 0;  
-        font-size: 20px;
+
+    #contactame .fila1 .guion{
+        padding-top: 25px;
+    }
+    #contactame .fila1 .guion div{
+        width: 70px;
+        height: 10px;
+        background-color: #ffffff;
+        font-size: 70px;
     }
     #contactame .fila1 .logo img{
-        width: 150px;
-        height: 60px;
+        width: 130px;
+        height: 50px;
     }
-
-    #contactame i:hover {
-        color: #5355cb;
+    #contactame .fila1 .logo{
+        padding-left: 105px;
     }
 
 }
