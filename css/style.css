@@ -535,7 +535,7 @@
     #project .fila1 img,
     #project .fila2 img,
     #project .fila3 img  {
-        width: 520px;
+        width: 620px;
         height: 290px;
         margin: 50px 10px;
     }
@@ -619,7 +619,6 @@
     #contactame .fila1 .logo{
         padding-left: 105px;
     }
-
 }
 
 @media (min-width: 1200px) {
