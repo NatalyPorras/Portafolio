@@ -59,7 +59,8 @@
 }
 #main .col .cv a{
     padding: 5%;
-    background-color: #333399;
+    background-color: #748CAB;
+    border: 2px solid #1D2D44;
     color: #F0EBD8;
     text-decoration: none;
     font-size: 10px;
@@ -110,7 +111,8 @@
 }
 #about .cv a{
     padding: 5%;
-    background-color: #333399;
+    background-color: #748CAB;
+    border: 2px solid #1D2D44;
     color: #F0EBD8;
     text-decoration: none;
     font-size: 15px;
@@ -146,28 +148,28 @@
 
 #habilidades i {
     font-size: 50px;
-    color: #1D2D44;
+    color: #0D1321;
 }
 
 #habilidades .imgIconoF img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 50px;
     margin: 3px 2px;
 }
 #habilidades .imgIconoG img {
-    width: 40px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     margin:4px 2px;
 }
 #habilidades .imgIconoB img {
-    width: 40px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     margin: 4px 2px;
 }
 #habilidades .imgIconoN img {
-    width: 100px;
-    height: 40px;
-    margin: 6% 2px;
+    width: 120px;
+    height: 90px;
+    margin: 1% 2px;
 }
 
 #project {
@@ -220,9 +222,9 @@
     height: 38px;
 }
 #project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
-    border:1px solid #748CAB;
-    padding: 1px 10px;
     background-color: #748CAB;
+    border: 2px solid #1D2D44;
+    padding: 1px 10px;
     color: #F0EBD8;
     font-size: 14px;
 }
@@ -271,9 +273,9 @@
     height: 38px;
 }
 #project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
-    border:1px solid #748CAB;
-    padding: 1px 10px;
     background-color: #748CAB;
+    border: 2px solid #1D2D44;
+    padding: 1px 10px;
     color: #F0EBD8;
     font-size: 14px;
 }
@@ -320,9 +322,9 @@
     height: 38px;
 }
 #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-    border:1px solid #748CAB;
-    padding: 1px 10px;
     background-color: #748CAB;
+    border: 2px solid #1D2D44;
+    padding: 1px 10px;
     color: #F0EBD8;
     font-size: 14px;
 }
@@ -420,17 +422,16 @@
         font-size: 20px
     }
     #main .col .cv{
-        margin: 0px 38%;
+        margin: 5px 38%;
         padding: 1%;
         display: inline-block;
     }
     #main .col .cv a{
         padding: 5%;
-        background-color: #333399;
         color: #F0EBD8;
         text-decoration: none;
         font-size: 20px;
-        border-radius: 15px;
+        border-radius: 10px;
     }
     #main .col .cv i{
         display: inline;
@@ -490,33 +491,33 @@
     }
     #habilidades .col-lg-1 {
        max-width: 85%;
-       margin: 0 5px
+       margin: 0
     }
 
     #habilidades i {
         font-size: 80px;
-        margin: 0;
+        margin: 0 5px;
     }
 
     #habilidades .imgIconoF img {
-        width: 50px;
-        height: 70px;
-        margin: 7px 2px;
+        width: 78px;
+        height: 78px;
+        margin: 4px 0px;
     }
     #habilidades .imgIconoG img {
-        width: 70px;
-        height: 70px;
-        margin: 5px 2px;
+        width: 78px;
+        height: 85px;
+        margin: 4px 0px;
     }
     #habilidades .imgIconoB img {
-        width: 60px;
-        height: 70px;
-        margin: 4px 2px;
+        width: 85px;
+        height: 89px;
+        margin: 3px 0px;
     }
     #habilidades .imgIconoN img {
-        width: 160px;
-        height: 70px;
-        margin: 4% 2px;
+        width: 170px;
+        height: 100px;
+        margin: 1px 0px;
     }
     #project {
         padding: 30px 0;
