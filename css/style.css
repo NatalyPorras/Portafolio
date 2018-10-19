@@ -1,9 +1,9 @@
 #main{
-    background-image: url(../imagenes/fondo-port.png);
+    background-image: url(../imagenes/fondo-general.jpeg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    background-color: rgba(116, 140, 171, 0.9);
+    background-color: rgba(255, 255, 255, .1);
     height: 100vh;
     object-fit: cover;
     filter: grayscale(10%);
@@ -16,7 +16,9 @@
 .navbar-nav {
     font-size: 13px;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
 #main {
     height: 100vh;
 }
@@ -30,30 +32,36 @@
 #main .col {
     background-color: inherit;
     max-width: 100%;
-    margin: 50% auto;
+    margin: 40% auto;
     padding: 10px 0;
     height: 100px;
 }
 
 #main .col .titulo1 {
-    margin: 0px 5%;
-    font-size: 27px;
-    font-weight: 500;
+    margin: 0px 7%;
+    font-size: 23px;
+    font-weight: bold;
 }
 #main .col .titulo2 {
-    margin: 0px 15%;
-    font-size: 10px
+    margin: 5px 5%;
+    font-size: 11px;
+    font-weight: 900;
+
 }
 #main .col .titulo3 {
-    margin: 0px 26%;
-    font-size: 10px
+    margin: 5px 20%;
+    font-size: 11px;
+    font-weight: 900;
+
 }
 #main .col .titulo4 {
-    margin: 0px 27%;
-    font-size: 10px
+    margin: 5px 21%;
+    font-size: 11px;
+    font-weight: 900;
+
 }
 #main .col .cv{
-    margin: 0px 34%;
+    margin: 0px 30%;
     padding: 1%;
     display: inline-block;
 }
@@ -83,7 +91,6 @@
 
 #about .fila2 {
     text-align: center;
-    font-size: 25px;
 }
 
 #about .img-photo {
@@ -95,7 +102,6 @@
 #about img {
     width: 230px;
     height: 210px;
-    margin: 5px 50px 10px;
 }
 
 #about p {
@@ -189,7 +195,7 @@
 #project .fila1 img {
     width: 270px;
     height: 140px;
-    margin: 10px 20px;
+    margin: 10px 0px;
 }
 
 #project .fila1 h2 {
@@ -200,7 +206,7 @@
 
 #project .fila1 p {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 10px
 }
 #project .fila1 .contenido, 
@@ -247,7 +253,7 @@
 #project .fila2 img {
     width: 270px;
     height: 140px;
-    margin: 10px 20px;
+    margin: 10px 0px;
 }
 #project .fila2 h2 {
     text-align: center;
@@ -256,7 +262,7 @@
 }
 #project .fila2 p {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 10px;
 }
 #project .fila2 .links {
@@ -297,7 +303,7 @@
 #project .fila3 img {
     width: 270px;
     height: 140px;
-    margin: 10px 20px;
+    margin: 10px 0px;
 }
 #project .fila3 h2 {
     text-align: center;
@@ -306,7 +312,7 @@
 }
 #project .fila3 p {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
 }
 #project .fila3 .links {
     width: 200px;
@@ -349,7 +355,15 @@
     padding: 0;
     font-size: 12px;
 }
+#contactame .fila1 .mail-name{
+    display: block;
+    font-size: 10px;
+    margin: 5px 0;
 
+}
+#contactame .fila1 .mail{
+    display: none
+}
 #contactame .fila1 .guion{
     padding-top: 11px;
 }
@@ -365,8 +379,8 @@
     color: #ffffff;
 }
 #contactame .fila1 .logo img{
-    width: 70px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
 }
 #contactame .fila1 .logo{
     padding-left: 10px;
@@ -400,29 +414,33 @@
     }
 
     #main .col {
-        max-width: 90%;
-        margin: 10% auto;
+        max-width: 65%;
+        margin: 11% auto;
+        border: 1px solid #8c8b8b;
+        background-color: rgba(255,255,255,.2);
+        box-shadow:  0 0 5px 2px #555555 
     }
 
+
     #main .col .titulo1 {
-        margin: 0px 15%;
-        font-size: 65px;
+        margin: 0px 5%;
+        font-size: 60px;
         font-weight: 500;
     }
     #main .col .titulo2 {
-        margin: 0px 26%;
+        margin: 5px 17%;
         font-size: 20px
     }
     #main .col .titulo3 {
-        margin: 0px 33%;
+        margin: 5px 26%;
         font-size: 20px
     }
     #main .col .titulo4 {
-        margin: 0px 33.6%;
+        margin: 5px 27%;
         font-size: 20px
     }
     #main .col .cv{
-        margin: 5px 38%;
+        margin: 10px 33%;
         padding: 1%;
         display: inline-block;
     }
@@ -450,11 +468,15 @@
     #about .fila1 {
         margin: 5px 0;
     }
-
+    #about .img-photo {
+        width: 360px;
+        height: 350px;
+        margin: 10px auto;
+    }
+    
     #about img {
         width: 360px;
         height: 350px;
-        margin: 5px 30%;
     }
 
     #about .fila2{
@@ -496,7 +518,7 @@
 
     #habilidades i {
         font-size: 80px;
-        margin: 0 5px;
+        margin: 0 12px;
     }
 
     #habilidades .imgIconoF img {
@@ -515,9 +537,9 @@
         margin: 3px 0px;
     }
     #habilidades .imgIconoN img {
-        width: 170px;
+        width: 150px;
         height: 100px;
-        margin: 1px 0px;
+        margin: 1px 3px;
     }
     #project {
         padding: 30px 0;
@@ -620,6 +642,12 @@
     #contactame .fila1 .logo{
         padding-left: 105px;
     }
+    #contactame .fila1 .mail-name{
+        display: none
+    }
+    #contactame .fila1 .mail{
+        display: block
+    }
 }
 
 @media (min-width: 1200px) {
@@ -627,7 +655,7 @@
 
     #main .col {
         padding: 20px 0;
-        height: 240px;
+        height: 300px;
     }
     .container {
         max-width: 1240px;
