@@ -11,7 +11,7 @@
 }
 #header img {
     width: 100px;
-    height: 50px;
+    height: 40px;
 }
 .navbar-nav {
     font-size: 13px;
@@ -29,39 +29,43 @@
 .sticky-top {
     background-color: #748CAB;
 }
+
 #main .col {
     background-color: inherit;
-    max-width: 100%;
-    margin: 40% auto;
+    max-width: 90%;
+    margin: 50% auto;
     padding: 10px 0;
-    height: 100px;
+    height: 170px;
+    border: 1px solid #8c8b8b;
+    background-color: rgba(255,255,255,.2);
+    box-shadow:  0 0 5px 2px #555555 
 }
 
 #main .col .titulo1 {
     margin: 0px 7%;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
 }
 #main .col .titulo2 {
     margin: 5px 5%;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 900;
 
 }
 #main .col .titulo3 {
     margin: 5px 20%;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 900;
 
 }
 #main .col .titulo4 {
     margin: 5px 21%;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 900;
 
 }
 #main .col .cv{
-    margin: 0px 30%;
+    margin: 10px 30%;
     padding: 1%;
     display: inline-block;
 }
