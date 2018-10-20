@@ -32,57 +32,57 @@
 
 #main .col {
     background-color: inherit;
-    max-width: 90%;
+    max-width: 95%;
     margin: 50% auto;
     padding: 10px 0;
-    height: 170px;
+    height: 180px;
     border: 1px solid #8c8b8b;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(82,82,82,.6);
     box-shadow:  0 0 5px 2px #555555 
 }
 
 #main .col .titulo1 {
-    margin: 0px 7%;
-    font-size: 20px;
-    font-weight: bold;
+    margin: 0px 4%;
+    font-size: 23px;
+    font-weight: 600;
 }
 #main .col .titulo2 {
-    margin: 5px 5%;
-    font-size: 10px;
-    font-weight: 900;
+    margin: 5px 2%;
+    font-size: 11.5px;
+    font-weight: 500;
 
 }
 #main .col .titulo3 {
-    margin: 5px 20%;
-    font-size: 10px;
-    font-weight: 900;
+    margin: 5px 17%;
+    font-size: 11.5px;
+    font-weight: 500;
 
 }
 #main .col .titulo4 {
-    margin: 5px 21%;
-    font-size: 10px;
-    font-weight: 900;
-
+    margin: 5px 18%;
+    font-size: 11.5px;
+    font-weight: 500;
 }
 #main .col .cv{
-    margin: 10px 30%;
-    padding: 1%;
+    margin: 10px 26%;
+    padding: 2%;
     display: inline-block;
 }
 #main .col .cv a{
     padding: 5%;
-    background-color: #748CAB;
-    border: 2px solid #1D2D44;
+    background-color: #1D2D44;
+    border: 1px solid #748CAB;
+    box-shadow:  0 0 1px 1px #748CAB; 
     color: #F0EBD8;
     text-decoration: none;
-    font-size: 10px;
-    border-radius: 15px;
+    font-size: 13px;
+    border-radius: 2px;
 }
 #main .col .cv i{
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 #main .col span{
@@ -98,36 +98,35 @@
 }
 
 #about .img-photo {
-    width: 270px;
+    width: 210px;
     height: 200px;
     margin: 10px auto;
 }
 
 #about img {
-    width: 230px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
 }
 
 #about p {
     text-align: justify;
-    font-size: 15px;
-    margin: 15px 20px;
+    font-size: 13px;
+    margin: 15px 20px 5px;
 }
 
 #about .cv{
-    margin: 15px 20%;
-    padding: 1%;
+    margin: 15px 17% 5px;
     display: inline-block;
 }
 #about .cv a{
     padding: 5%;
-    background-color: #748CAB;
-    border: 2px solid #1D2D44;
+    background-color: #1D2D44;
+    border: 1px solid #748CAB;
+    box-shadow:  0 0 1px 1px #748CAB; 
     color: #F0EBD8;
     text-decoration: none;
-    font-size: 15px;
-    border-radius: 15px;
-    margin: 0 20px;
+    font-size: 13px;
+    border-radius: 2px;
 }
 #about .cv i{
     display: inline;
@@ -169,180 +168,111 @@
 #habilidades .imgIconoG img {
     width: 60px;
     height: 60px;
-    margin:4px 2px;
+    margin:0px 2px;
 }
 #habilidades .imgIconoB img {
     width: 60px;
     height: 60px;
-    margin: 4px 2px;
+    margin: 0px 2px;
 }
 #habilidades .imgIconoN img {
-    width: 120px;
-    height: 90px;
-    margin: 1% 2px;
+    width: 100px;
+    height: 50px;
+    margin: 0 2px;
 }
-
+#habilidades .imgIconoF img:hover {
+    color: red;
+}
 #project {
     text-align: center;
     padding: 50px 0;
 
 }
 
-#project .fila1,#project .fila2,#project .fila3{
+#project .fila1,
+#project .fila2,
+#project .fila3{
    background-color: rgba(254, 254, 255)
 
-}
-#project .fila1 {
-    margin: 10px 0px;
-}
-
-#project .fila1 img {
-    width: 270px;
-    height: 140px;
-    margin: 10px 0px;
-}
-
-#project .fila1 h2 {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 20px;
-}
-
-#project .fila1 p {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 10px
 }
 #project .fila1 .contenido, 
 #project .fila2 .contenido, 
 #project .fila3 .contenido {
     padding: 0px 25px;
 }
-#project .fila1 .links {
-    width: 200px;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-around
-}
-#project .fila1 .links .link1,#project .fila1 .links .link2 {
-    width: 80px;
-    height: 38px;
-}
-#project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
-    background-color: #748CAB;
-    border: 2px solid #1D2D44;
-    padding: 1px 10px;
-    color: #F0EBD8;
-    font-size: 14px;
-}
-#project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5{
-    text-align: center;
-    color: #0D1321;
-    margin: 5px;
-    font-size: 12px
-}
-#project .hr1{
-	border: 0;
-    box-shadow: 0 0 5px 0 #8c8b8b;    
-    height: 1px; 
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-}
-#project .fila2 {
-    margin: 10px 0px;
-}
-
-#project .fila2 img {
-    width: 270px;
-    height: 140px;
-    margin: 10px 0px;
-}
-#project .fila2 h2 {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 20px;
-}
-#project .fila2 p {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 10px;
-}
-#project .fila2 .links {
-    width: 200px;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-around
-}
-#project .fila2 .links .link1,#project .fila2 .links .link2 {
-    width: 80px;
-    height: 38px;
-}
-#project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
-    background-color: #748CAB;
-    border: 2px solid #1D2D44;
-    padding: 1px 10px;
-    color: #F0EBD8;
-    font-size: 14px;
-}
-#project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5{
-    text-align: center;
-    color: #0D1321;
-    margin: 5px;
-    font-size: 12px
-}
-#project .hr2{
-	border: 0;
-    box-shadow: 0 0 5px 0 #8c8b8b;    
-    height: 1px; 
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-}
+#project .fila1,
+#project .fila2,
 #project .fila3 {
     margin: 10px 0px;
 }
+
+#project .fila1 img,
+#project .fila2 img,
 #project .fila3 img {
     width: 270px;
     height: 140px;
     margin: 10px 0px;
 }
+
+#project .fila1 h2,
+#project .fila2 h2,
 #project .fila3 h2 {
     text-align: center;
     margin: 5px 0;
     font-size: 20px;
 }
+
+#project .fila1 p,
+#project .fila2 p,
 #project .fila3 p {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: 10px
 }
+
+#project .fila1 .links,
+#project .fila2 .links,
 #project .fila3 .links {
     width: 200px;
     padding: 5px;
     color: white;
-    font-size: 15px;
     margin: 5px auto;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
+#project .fila1 .links .link1,#project .fila1 .links .link2,
+#project .fila2 .links .link1,#project .fila2 .links .link2,
 #project .fila3 .links .link1,#project .fila3 .links .link2 {
-    width: 80px;
-    height: 38px;
+    width: 120px;
+    padding: 5px;
 }
+#project .fila1 .links .link1 a,#project .fila1 .links .link2 a,
+#project .fila2 .links .link1 a,#project .fila2 .links .link2 a,
 #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-    background-color: #748CAB;
-    border: 2px solid #1D2D44;
-    padding: 1px 10px;
+
+    padding: 2px 15px;
+    margin: 5px;
     color: #F0EBD8;
-    font-size: 14px;
+    font-size: 15px;
+    background-color: #1D2D44;
+    border: 1px solid #748CAB;
+    box-shadow:  0 0 1px 1px #748CAB; 
+    border-radius: 2px;
 }
+#project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5,
+#project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5,
 #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
     text-align: center;
     color: #0D1321;
-    margin: 5px;
+    margin: 5px 0 0 0;
     font-size: 12px
+}
+#project .hr1,
+#project .hr2{
+	border: 0;
+    box-shadow: 0 0 5px 0 #8c8b8b;    
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 
 #contactame {
@@ -407,7 +337,7 @@
 
 
     #header img {
-        width: 140px;
+        width: 160px;
         height: 60px;
     }
     .opciones{
@@ -418,33 +348,30 @@
     }
 
     #main .col {
-        max-width: 65%;
-        margin: 11% auto;
-        border: 1px solid #8c8b8b;
-        background-color: rgba(255,255,255,.2);
-        box-shadow:  0 0 5px 2px #555555 
+        max-width: 55%;
+        margin: 10% auto;
+
     }
 
-
     #main .col .titulo1 {
-        margin: 0px 5%;
-        font-size: 60px;
+        margin: 10px 10% 0;
+        font-size: 45px;
         font-weight: 500;
     }
     #main .col .titulo2 {
-        margin: 5px 17%;
-        font-size: 20px
+        margin: 5px 15%;
+        font-size: 18px
     }
     #main .col .titulo3 {
         margin: 5px 26%;
-        font-size: 20px
+        font-size: 18px
     }
     #main .col .titulo4 {
         margin: 5px 27%;
-        font-size: 20px
+        font-size: 18px
     }
     #main .col .cv{
-        margin: 10px 33%;
+        margin: 15px 33% 5px;
         padding: 1%;
         display: inline-block;
     }
@@ -479,32 +406,27 @@
     }
     
     #about img {
-        width: 360px;
+        width: 340px;
         height: 350px;
     }
 
     #about .fila2{
         margin: 45px 0;
+        
     }
     #about .texto-about p {
-        text-align: justify;
         font-size: 20px;
-        margin: 10px 0;
+        margin: 0 70px
     }
-
     
     #about .cv{
         margin: 10px 20%;
         padding: 2%;
     }
     #about .cv a{
-        padding: 5%;
-        background-color: #333399;
-        color: #F0EBD8;
-        text-decoration: none;
         font-size: 25px;
-        border-radius: 15px;
-        margin: 0 20px;
+        border-radius: 2px;
+
     }
     #about .cv i{
         display: inline;
@@ -542,73 +464,85 @@
     }
     #habilidades .imgIconoN img {
         width: 150px;
-        height: 100px;
-        margin: 1px 3px;
+        height: 60px;
+        margin: 20px 3px;
     }
     #project {
-        padding: 30px 0;
-    }
-
-    #project h3 {
-        text-align: center;
-        font-size: 60px;
+        padding: 10px 0 30px;
     }
 
     #project .fila1,
     #project .fila2  {
         margin: 20px 0;
-        padding: 50px 35px;
+        padding: 20px 35px;
     }
+    /* #project .fila1 .img-proyect,
+    #project .fila2 .img-proyect,
+    #project .fila3 .img-proyect{
+        background-color: green;
+    } */
     #project .fila1 img,
     #project .fila2 img,
     #project .fila3 img  {
-        width: 620px;
-        height: 290px;
-        margin: 50px 10px;
+        width: 540px;
+        height: 270px;
+        margin: 70px 10px;
     }
     #project .fila1 .contenido,
     #project .fila2 .contenido,
     #project .fila3 .contenido {
-        padding: 40px 25px;
+        margin: 20px 15px;
+        padding: 20px 25px;
+        border: 1px solid #c9c9c9;
+        box-shadow:  0 0 1px 1px #c9c9c9; 
     }
     #project .fila1 h2, 
     #project .fila2 h2,
     #project .fila3 h2 {
         font-size: 45px;
-        margin: 20px 0;
+        margin: 15px 0 20px;
     }
-    #project .fila1 p,
-    #project .fila2 p,
-    #project .fila3 p {
+
+    #project .fila1 .contenido p,
+    #project .fila2 .contenido p,
+    #project .fila3 .contenido p{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 20px
+    }
+    #project .fila1 .contenido span,
+    #project .fila2 .contenido span,
+    #project .fila3 .contenido span{
         font-size: 18px;
+        font-weight: 600
     }
     #project .fila1 .links, 
     #project .fila2 .links,
     #project .fila3 .links {
         width: 350px;
-        padding: 10px;
         font-size: 15px;
-        margin: 20px auto;
     }
     #project .fila1 .links .link1,#project .fila1 .links .link2,
     #project .fila2 .links .link1,#project .fila2 .links .link2,
     #project .fila3 .links .link1,#project .fila3 .links .link2 {
-        width: 280px;
-        height: 80px;
-      padding: 0;
-      cursor: pointer;
+       
+        padding: 5px 0 0;
+        cursor: pointer;
     }
+
     #project .fila1 .links .link1 a,#project .fila1 .links .link2 a,
     #project .fila2 .links .link1 a,#project .fila2 .links .link2 a,
     #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-        font-size: 25px;
-        padding: 2px 20px;
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0;
+        padding: 4px 25px;
     }
     #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5,
     #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5,
     #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
-        margin: 1px 0;
-        font-size: 20px
+        margin: 5px 0 0;
+        font-size: 18px
     }
     #project .fila3{
         margin: 20px 0;
@@ -658,8 +592,10 @@
 
 
     #main .col {
-        padding: 20px 0;
+        padding: 10px 0;
         height: 300px;
+        border-radius: 2px;
+
     }
     .container {
         max-width: 1240px;
