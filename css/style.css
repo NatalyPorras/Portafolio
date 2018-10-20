@@ -33,7 +33,7 @@
 #main .col {
     background-color: inherit;
     max-width: 95%;
-    margin: 50% auto;
+    margin: 45% auto;
     padding: 10px 0;
     height: 180px;
     border: 1px solid #8c8b8b;
@@ -222,12 +222,18 @@
     font-size: 20px;
 }
 
-#project .fila1 p,
-#project .fila2 p,
-#project .fila3 p {
-    text-align: center;
-    font-size: 13px;
-    margin-top: 10px
+#project .fila1 .contenido p,
+#project .fila2 .contenido p,
+#project .fila3 .contenido p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px
+}
+#project .fila1 .contenido span,
+#project .fila2 .contenido span,
+#project .fila3 .contenido span{
+    font-size: 15px;
+    font-weight: 600
 }
 
 #project .fila1 .links,
