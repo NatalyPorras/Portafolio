@@ -282,8 +282,7 @@
 }
 
 #contactame {
-    background-color: #555555;
-    padding: 5px 0;
+    background-color: #3E4E59;
 }
 #contactame .col-3, #contactame .col-2, #contactame .col-2, #contactame .col-1, #contactame .col-4{
   padding: 0;
@@ -295,26 +294,34 @@
     padding: 0;
     font-size: 11px;
 }
+p{
+    margin: 0;
+}
 #contactame .fila1 .mail-name p,
 {
     padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     font-size: 11px;
 }
 #contactame .fila1 .mail-name{
     display: block;
     font-size: 11px;
-    margin-top: 6px;
+    padding-top: 11px;
 
 }
 #contactame .col-2 {
-    max-width: 15%;
+    max-width: 14%;
+    padding-top: 5px
 }
-
+#contactame .col-1 {
+    max-width: 10%;
+}
 #contactame .fila1 .mail{
     display: none
 }
 #contactame .fila1 .guion{
-    padding-top: 14px;
+    padding-top: 20px;
 }
 #contactame .fila1 .guion div{
     width: 10px;
@@ -327,11 +334,12 @@
     color: #ffffff;
 }
 #contactame .fila1 .logo img{
-    width: 50px;
-    height: 20px;
+    width: 70px;
+    height: 35px;
+    padding-top: 5px
 }
 #contactame .fila1 .logo{
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 #contactame a:hover {
@@ -564,12 +572,12 @@
     }
 
     #contactame .row {
-        padding: 45px 0;
+        padding: 20px 0;
     }
     #contactame .fila1 .linke,
     #contactame .fila1 .git,
     #contactame .fila1 .mail{
-        padding-top: 5px;
+        padding-top: 10px;
         padding-left: 20px
     }
     #contactame .fila1 .linke a,
@@ -579,7 +587,7 @@
     }
 
     #contactame .fila1 .guion{
-        padding-top: 29px;
+        padding-top: 32px;
     }
     #contactame .fila1 .guion div{
         width: 50px;
@@ -588,8 +596,8 @@
         font-size: 70px;
     }
     #contactame .fila1 .logo img{
-        width: 130px;
-        height: 50px;
+        width: 160px;
+        height: 70px;
     }
     #contactame .fila1 .logo{
         padding-left: 105px;
