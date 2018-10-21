@@ -27,7 +27,7 @@
     color: #000000;
 }
 .sticky-top {
-    background-color: #748CAB;
+    background-color: #1D2D44;
 }
 
 #main .col {
@@ -198,7 +198,7 @@
 #project .fila1 .contenido, 
 #project .fila2 .contenido, 
 #project .fila3 .contenido {
-    padding: 0px 25px;
+    padding: 0px 10px;
 }
 #project .fila1,
 #project .fila2,
@@ -293,28 +293,36 @@
 #contactame .fila1 .git a,
 #contactame .fila1 .mail a{
     padding: 0;
-    font-size: 12px;
+    font-size: 11px;
+}
+#contactame .fila1 .mail-name p,
+{
+    padding: 0;
+    font-size: 11px;
 }
 #contactame .fila1 .mail-name{
     display: block;
-    font-size: 10px;
-    margin: 5px 0;
+    font-size: 11px;
+    margin-top: 6px;
 
 }
+#contactame .col-2 {
+    max-width: 15%;
+}
+
 #contactame .fila1 .mail{
     display: none
 }
 #contactame .fila1 .guion{
-    padding-top: 11px;
+    padding-top: 14px;
 }
 #contactame .fila1 .guion div{
-    width: 15px;
-    height: 5px;
+    width: 10px;
+    height: 2px;
     background-color: #ffffff;
-    font-size: 70px;
 }
 
-#contactame a {
+#contactame a,#contactame p {
     text-decoration: none;
     color: #ffffff;
 }
@@ -571,11 +579,11 @@
     }
 
     #contactame .fila1 .guion{
-        padding-top: 25px;
+        padding-top: 29px;
     }
     #contactame .fila1 .guion div{
-        width: 70px;
-        height: 10px;
+        width: 50px;
+        height: 5px;
         background-color: #ffffff;
         font-size: 70px;
     }
