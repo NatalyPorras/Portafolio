@@ -45,28 +45,31 @@
     margin: 0px 4%;
     font-size: 23px;
     font-weight: 600;
+    text-align: center;
 }
 #main .col .titulo2 {
     margin: 5px 2%;
     font-size: 11.5px;
     font-weight: 500;
-
+    text-align: center;
 }
 #main .col .titulo3 {
     margin: 5px 17%;
     font-size: 11.5px;
     font-weight: 500;
-
+    text-align: center;
 }
 #main .col .titulo4 {
     margin: 5px 18%;
     font-size: 11.5px;
     font-weight: 500;
+    text-align: center;
 }
 #main .col .cv{
-    margin: 10px 26%;
-    padding: 2%;
-    display: inline-block;
+    margin: 5px auto;
+    width: 55%;
+    padding: 1%;
+    text-align: center;
 }
 #main .col .cv a{
     padding: 5%;
@@ -110,7 +113,7 @@
 
 #about p {
     text-align: justify;
-    font-size: 13px;
+    font-size: 18px;
     margin: 15px 20px 5px;
 }
 
@@ -119,20 +122,20 @@
     display: inline-block;
 }
 #about .cv a{
-    padding: 5%;
+    padding: 9%;
     background-color: #1D2D44;
     border: 1px solid #748CAB;
     box-shadow:  0 0 1px 1px #748CAB; 
     color: #F0EBD8;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 2px;
 }
 #about .cv i{
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 15px;
+    font-size: 19px;
 }
 #habilidades {
     background-color: #ffffff;
@@ -346,12 +349,77 @@ p{
     text-decoration: none;
     color: #F0EBD8;
 }
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    #main .col {
+        max-width: 70%;
+        margin: 17% auto;
+        height: 250px;
+        border-radius: 2px;
+    }
+
+    #main .col .titulo1 {
+        margin: 10px 0;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    #main .col .titulo2 {
+        margin: 5px 9%;
+        font-size: 16px
+    }
+    #main .col .titulo3 {
+        margin: 5px 20%;
+        font-size: 16px
+    }
+    #main .col .titulo4 {
+        margin: 5px 20%;
+        font-size: 16px
+    }
+    #main .col .cv{
+        padding: 1%;
+        margin: 25px auto;
+    width: 55%;
+    padding: 1%;
+    text-align: center;
+    }
+
+
+}
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
 
         font-size: 20px;
+    }
+    #main .col {
+        max-width: 90%;
+        margin: 17% auto;
+        height: 250px;
+        border-radius: 2px;
+    }
+
+    #main .col .titulo1 {
+        margin: 10px 0;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #main .col .titulo2 {
+        margin: 5px 9%;
+        font-size: 16px
+    }
+    #main .col .titulo3 {
+        margin: 5px 20%;
+        font-size: 16px
+    }
+    #main .col .titulo4 {
+        margin: 5px 20%;
+        font-size: 16px
+    }
+    #main .col .cv{
+        padding: 1%;
+        margin: 25px auto;
+    width: 55%;
+    padding: 1%;
+    text-align: center;
     }
 }
 
@@ -370,13 +438,13 @@ p{
     }
 
     #main .col {
-        max-width: 55%;
+        max-width: 70%;
         margin: 10% auto;
-
+        height: 300px;
     }
 
     #main .col .titulo1 {
-        margin: 10px 10% 0;
+        margin: 10px 0;
         font-size: 45px;
         font-weight: 500;
     }
@@ -393,17 +461,12 @@ p{
         font-size: 18px
     }
     #main .col .cv{
-        margin: 15px 33% 5px;
-        padding: 1%;
-        display: inline-block;
+        margin: 25px auto;
+    width: 55%;
+    padding: 1%;
+    text-align: center;
     }
-    #main .col .cv a{
-        padding: 5%;
-        color: #F0EBD8;
-        text-decoration: none;
-        font-size: 20px;
-        border-radius: 10px;
-    }
+
     #main .col .cv i{
         display: inline;
         margin-right: 5px;
@@ -437,12 +500,12 @@ p{
         
     }
     #about .texto-about p {
-        font-size: 20px;
+        font-size: 17px;
         margin: 0 70px
     }
     
     #about .cv{
-        margin: 10px 20%;
+        margin: 15px 20%;
         padding: 2%;
     }
     #about .cv a{
@@ -490,7 +553,7 @@ p{
         margin: 20px 3px;
     }
     #project {
-        padding: 10px 0 30px;
+        padding: 10px 0 10px;
     }
 
     #project .fila1,
@@ -506,17 +569,15 @@ p{
     #project .fila1 img,
     #project .fila2 img,
     #project .fila3 img  {
-        width: 540px;
-        height: 270px;
-        margin: 70px 10px;
+        width: 430px;
+        height: 230px;
+        margin: 90px 5px;
     }
     #project .fila1 .contenido,
     #project .fila2 .contenido,
     #project .fila3 .contenido {
         margin: 20px 15px;
         padding: 20px 25px;
-        border: 1px solid #c9c9c9;
-        box-shadow:  0 0 1px 1px #c9c9c9; 
     }
     #project .fila1 h2, 
     #project .fila2 h2,
@@ -530,7 +591,8 @@ p{
     #project .fila3 .contenido p{
         text-align: justify;
         font-size: 16px;
-        line-height: 20px
+        line-height: 23px;
+        margin: 10px 0;
     }
     #project .fila1 .contenido span,
     #project .fila2 .contenido span,
@@ -623,4 +685,16 @@ p{
         max-width: 1240px;
     }
 
+}
+
+
+.navscroll {
+    background-color:purple;
+    color:yellow;
+    transition:background-color 500ms, color 500ms;
+}
+
+.navscroll.azul {
+    background-color:blue;
+    color:white;
 }
