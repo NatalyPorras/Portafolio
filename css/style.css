@@ -522,9 +522,9 @@ p{
     #habilidades .row {
         padding: 30px 0;
     }
-    #habilidades .col-lg-1 {
+    #habilidades .col-lg-3 {
        max-width: 85%;
-       margin: 0
+       margin: 10px 0;
     }
 
     #habilidades i {
